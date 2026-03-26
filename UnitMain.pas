@@ -267,6 +267,7 @@ begin
   TStyleManager.TrySetStyle('Windows11 Modern Dark');
   iDark := 'S';
   PopupMenu.CloseMenu;
+  Atualizar_menu();
 end;
 
 procedure TFormMain.Dark2Click(Sender: TObject);
@@ -274,6 +275,7 @@ begin
   TStyleManager.TrySetStyle('Windows'); //11 Modern Light');
   iDark := 'N';
   PopupMenu.CloseMenu;
+  Atualizar_menu();
 end;
 
 procedure TFormMain.RegistrarNoIniciarWindows();
